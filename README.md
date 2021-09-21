@@ -11,12 +11,13 @@ These configs are for use with Bunsenlabs Lithium. They will change the default 
 
 ## Installation
 These instructions assume that you don't already have i3/i3status custom configs in place. If you do have custom i3 configs in place you'll want to just copy & pase parts of the *DOTconfig/i3/config* and *DOTconfig/i3status/config* files into your own configs (mainly the colors and any bunsen specific lines such as bl-exit keybind, and floating rule for same).
-- Clone this repo somewhere you can find it on your computer (e.g. to clone to your *Downloads* folder `cd ~/Downloads && git clone https://github.com/nealbrophy/bunsenlabs-lithium-i3`)
+- Clone this repo somewhere you can find it on your computer 
+	- e.g. to clone to your *Downloads* folder `cd ~/Downloads && git clone https://github.com/nealbrophy/bunsenlabs-lithium-i3`
 - Backup the existing configs in case something goes wrong or you want to revert to openbox
 	- Backup *.config/bunsen/autostart*: `cp ~/.config/bunsen/autostart ~/.config/bunsen/autostart.bk`
 	- Backup *.config/dmenu/dmenu_bind.sh*: `cp ~/.config/dmenu/dmenu_bind.sh ~/.config/dmenu/dmenu_bind.sh.bk`
 	- Backup *.config/tint2/tintrc*: `cp ~/.config/tint2/tint2rc ~/.config/tint2/tint2rc.bk`
-- Copy the configs from this repo to the locations matching the folder names so copy `DOTconfig/bunsen/autostart` to `.config/bunsen/` so it replaces the default `autostart` (if you can't see `.config` on your system open the filemanage, Thunar, and while in your home directory hit `Ctrl+h` to show hidden folders).
+- Copy the configs from this repo to the locations matching the folder names so copy *DOTconfig/bunsen/autostart* to *.config/bunsen/* so it replaces the default *autostart* (if you can't see the *.config* directory on your system open the filemanager, Thunar, and while in your home directory hit *Ctrl+h* to show hidden folders).
 	- Replace *.config/bunsen/autostart*: From within the cloned repo run `cp DOTconfig/bunsen/autostart ~/.config/bunsen/`
 	- Replace *.config/dmenu/dmenu_bind.sh*: From within the cloned repo run `cp DOTconfig/dmenu/dmenu_bind.sh ~/.config/dmenu/`
 	- Replace *.config/tint2/tintrc*: From within the cloned repo run `cp DOTconfig/tint2/tint2rc ~/.config/tint2/`
