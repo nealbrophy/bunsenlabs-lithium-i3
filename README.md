@@ -1,6 +1,9 @@
 # Bunsenlabs Lithium i3 Configs
 These configs are for use with Bunsenlabs Lithium. They will change the default window manager from Openbox to i3 while keeping the default tint2 panel, menus, and theming.
 
+Once updated it should look something like this:
+<img src="./images/bunsenlabs-lithium-i3.png" alt="image of Bunsenlabs Lithium desktop with i3 window manager">
+
 ## Not installed by default on BL
 - i3 (incl i3status)
 	- To install the meta-package with everything run `sudo apt install i3`
