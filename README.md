@@ -20,10 +20,12 @@ These instructions assume that you don't already have i3/i3status custom configs
 	- Backup *.config/bunsen/autostart*: `cp ~/.config/bunsen/autostart ~/.config/bunsen/autostart.bk`
 	- Backup *.config/dmenu/dmenu_bind.sh*: `cp ~/.config/dmenu/dmenu_bind.sh ~/.config/dmenu/dmenu_bind.sh.bk`
 	- Backup *.config/tint2/tintrc*: `cp ~/.config/tint2/tint2rc ~/.config/tint2/tint2rc.bk`
+	- Backup *.config/conky/conky.conf*: `cp ~/.config/conky/conky.conf ~/.config/conky/conky.conf.bk`
 - Copy the configs from this repo to the locations matching the folder names so copy *DOTconfig/bunsen/autostart* to *.config/bunsen/* so it replaces the default *autostart* (if you can't see the *.config* directory on your system open the filemanager, Thunar, and while in your home directory hit *Ctrl+h* to show hidden folders).
 	- Replace *.config/bunsen/autostart*: From within the cloned repo run `cp DOTconfig/bunsen/autostart ~/.config/bunsen/`
 	- Replace *.config/dmenu/dmenu_bind.sh*: From within the cloned repo run `cp DOTconfig/dmenu/dmenu_bind.sh ~/.config/dmenu/`
 	- Replace *.config/tint2/tintrc*: From within the cloned repo run `cp DOTconfig/tint2/tint2rc ~/.config/tint2/`
+	- Replace *.config/conky/conky.conf*: From within the cloned repo run `cp DOTconfig/conky/conky.conf ~/.config/conky/`
 	- Create the i3 config folder: run `mkdir ~/.config/i3` (if you already started i3 and created the default config you can skip this)
 	- Copy the i3 config: From within the cloned repo run `cp DOTconfig/i3/config ~/.config/i3/`
 	- Create the i3 status folder: run `mkdir ~/.config/i3status` (i3 doesn't create this folder by default so unless you already manually created it you should do this step)
