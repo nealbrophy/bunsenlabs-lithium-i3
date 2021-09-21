@@ -75,7 +75,7 @@ syndaemon -i .5 -K -t -R -d &
 # these will be things like panels, conky, wallpaper etc
 
 case "$window_manager" in
-openbox)
+i3)
     ## The following applications will only be started in an openbox session.
     ## Add a new clause for your window manager, if different.
 
